@@ -1,0 +1,4 @@
+<form #meuForm>
+<input type="text" #name >
+</form>
+<button (click)="SendName(name.value); meuForm.reset()">Clique para enviar o nome</button>
